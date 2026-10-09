@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dois Cliques Mídias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/core.css">
+    <link rel="stylesheet" type="text/css" href="../css/elements.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="icon" type="image/png" href="logo1.svg">
+  </head>
+  
+  
+  <a href="https://api.whatsapp.com/send/?phone=554199557087&text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento.&type=phone_number&app_absent=0" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer">
+    <img src="whats.webp" alt="WhatsApp">
+</a>
+
+<style>
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+}
+</style>
+
+
+  <body class="preload">
+    <div class="container-fluid">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xs-10"><a href="../index.html" class="brand">
+                <div class="author"><img alt="Dois Cliques" src="logodois.svg" height="50" width="100" ></div>
+                <div class="title"></div></a></div>
+            <div class="col-md-6 col-xs-2">
+              <div class="nav-trigger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <div class="row mb-lg">
+            <div class="col-md-12">
+              <h1><span class="typed">Hello</span></h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 contact-info">
+              <p>+31 01 23 45 67 89</p><a href="mailto@hello@example.com">Hello@example.com</a><a href="#">Twitter</a><a href="#">Instagram</a><a href="#">Behance</a><a href="#">LinkedIn</a>
+            </div>
+            <div class="col-md-8">
+              <!-- The contact form-->
+              <form id="form" action="/php/mail.php" class="form mt-md">
+                <label>What's your name? *</label>
+                <input required type="text" name="name" class="form-control">
+                <label>Phone number</label>
+                <input type="text" name="phone" class="form-control">
+                <label>E-mail address *</label>
+                <input required type="email" name="email" class="form-control">
+                <label>Tell me what's up *</label>
+                <textarea required name="message" class="form-control"></textarea>
+                <button id="send" type="submit" class="btn btn-default">Send message</button><span class="p-md">* These fields are required</span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- The type animation script-->
+      <script>$(function(){$(".typed").typed({strings: ["Hello", "Hola", "こんにちは", "Ciao", "Aloha", "Hallo"],typeSpeed: 130,loop: true  });});</script>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center"><span>&copy; Dois Cliques. All rights reserved. </span></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <aside id="navigation">
+      <div class="inner">
+        <div class="nav-trigger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="menu">
+          <li> <a href="../index.html">Work</a></li>
+          <li> <a href="../pages/about.html">About</a></li>
+          
+          <li> <a href="../pages/contact.html">Contact</a></li>
+        </ul>
+        <hr>
+        <p>"Acreditamos que toda história merece ser contada de um jeito especial. Há mais de 10 anos, unimos criatividade, experiência e paixão pelo audiovisual para transformar ideias em imagens que emocionam, conectam e valorizam marcas e pessoas. Mais do que produzir conteúdo, criamos conexões e damos vida à sua essência.</p>
+        <hr>
+        <ul class="menu-small">
+          <li> <a href="https://www.instagram.com/dois.cliquess">Instagram</a></li>
+          
+          <li> <a href="https://www.behance.net/amorimvmk">Behance</a></li>
+		  <li> <a href="https://vimeo.com/amorimvmk">Vimeo</a></li>
+        </ul>
+      </div>
+    </aside>
+    <script src="../js/assets/jquery.js"></script>
+    <script src="../js/assets/bootstrap.js"></script>
+    <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/assets/validation.js"></script>
+    <script src="../js/assets/packery.pkgd.min.js"></script>
+    <script src="../js/assets/velocity.min.js"></script>
+    <script src="../js/assets/typed.min.js"></script>
+    <script src="../modules/tera-lightbox/tera-lightbox.js"></script>
+    <script src="../js/assets/animsition.js"></script>
+    <script src="../js/functions.js"></script>
+  </body>
+</html>
